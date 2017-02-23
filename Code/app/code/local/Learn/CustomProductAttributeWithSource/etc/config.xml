@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Learn_CustomProductAttributeWithSource>
+			<version>1.0.0</version>
+		</Learn_CustomProductAttributeWithSource>
+	</modules>
+
+	<global>
+        <models>
+            <customproductattributewithsource>
+                <class>Learn_CustomProductAttributeWithSource_Model</class>
+            </customproductattributewithsource>
+        </models>
+
+        <resources>
+            <customproductattributewithsource_setup>
+                <setup>
+                    <module>Learn_CustomProductAttributeWithSource</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </customproductattributewithsource_setup>
+        </resources>
+    </global>
+    
+</config>		  
+
+
